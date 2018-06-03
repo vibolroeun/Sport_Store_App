@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">android_project</string>
+    <string name="register_txt">Register</string>
+    <string name="login_txt">Login</string>
+    <string name="name_txt">Name</string>
+    <string name="email_txt">Email</string>
+    <string name="phone_txt">Phone Number</string>
+    <string name="password_txt">Password</string>
+    <string name="create_account_txt">Create Account</string>
+    <string name="account_txt">Already Account ?</string>
+    <string name="forget_txt">Forget Password ?</string>
+    <string name="login_with_txt">or Login with</string>
+</resources>

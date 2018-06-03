@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/backImage_introID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/intro4" />
+
+    <TextView
+        android:id="@+id/title_introID"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome To Our Sport Store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorSecond"/>
+
+    <ImageView
+        android:id="@+id/logo_introID"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/title_introID"
+        android:src="@drawable/icon"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+    
+    <TextView
+        android:id="@+id/descript_introID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textAlignment="center"
+        android:padding="24dp"
+        android:text="vibol"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/logo_introID"/>
+
+</RelativeLayout>
