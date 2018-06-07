@@ -29,72 +29,65 @@
             android:textAllCaps="true"
             android:layout_marginTop="50dp"
             android:textColor="@color/colorLightgray" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/name_txt"
-            android:textSize="14sp"
-            android:layout_marginTop="16dp"
-            android:textColor="@color/colorPrimaryDark" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/name_txt"-->
+            <!--android:textSize="14sp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:textColor="@color/colorPrimaryDark" />-->
         <EditText
             android:id="@+id/name_register_txtID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
-            android:paddingBottom="16dp"
             android:textColorHint="@color/colorPrimaryDark"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:hint="Name...."/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/email_txt"
-            android:textSize="14sp"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimaryDark" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/email_txt"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="@color/colorPrimaryDark" />-->
         <EditText
             android:id="@+id/email_register_txtID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorPrimaryDark"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:hint="Email...."/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/password_txt"
-            android:textSize="14sp"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimaryDark" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/password_txt"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="@color/colorPrimaryDark" />-->
         <EditText
             android:id="@+id/password_register_txtID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
-            android:paddingBottom="16dp"
             android:textColorHint="@color/colorPrimaryDark"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:hint="password...."/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/phone_txt"
-            android:textSize="14sp"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimaryDark" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/phone_txt"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textColor="@color/colorPrimaryDark" />-->
         <EditText
             android:id="@+id/phone_register_txtID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
-            android:paddingBottom="16dp"
             android:textColorHint="@color/colorPrimaryDark"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:hint="Phone Number...."/>
 
         <Button
@@ -103,18 +96,18 @@
             android:textStyle="normal"
             android:background="@color/colorSecond"
             android:textColor="@color/colorWhite"
-            android:layout_marginTop="40dp"
-            android:textSize="18sp"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
             android:layout_gravity="center"
             android:text="@string/create_account_txt"
-            android:layout_height="60dp" />
+            android:layout_height="55dp" />
 
         <TextView
             android:id="@+id/login_txtID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/account_txt"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:layout_marginTop="32dp"
             android:layout_gravity="center"
             android:textColor="@color/colorSecond" />

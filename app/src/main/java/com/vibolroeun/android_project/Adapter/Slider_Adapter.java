@@ -1,4 +1,4 @@
-package com.vibolroeun.android_project.Activities.Activities;
+package com.vibolroeun.android_project.Adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -27,8 +27,8 @@ public class Slider_Adapter extends PagerAdapter {
     public int[] slide_icon_images = {
             R.drawable.icon,
             R.drawable.icon1,
-            R.drawable.icon2,
-            R.drawable.icon3
+            R.drawable.icon3,
+            R.drawable.icon2
     };
     public String[] slide_title = {
             "Welcome To Our Sport Store",

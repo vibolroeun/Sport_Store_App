@@ -23,41 +23,39 @@
         android:textColor="@color/colorLightgray"
         android:textSize="25dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/email_txt"
-        android:textColor="@color/colorLightgray"
-        android:textSize="14sp" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:text="@string/email_txt"-->
+        <!--android:textColor="@color/colorLightgray"-->
+        <!--android:textSize="14sp" />-->
 
     <EditText
         android:id="@+id/email_login_txtID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email...."
-        android:paddingBottom="16dp"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorLightgray"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/password_txt"
-        android:textColor="@color/colorLightgray"
-        android:textSize="14sp" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="@string/password_txt"-->
+        <!--android:textColor="@color/colorLightgray"-->
+        <!--android:textSize="14sp" />-->
 
     <EditText
         android:id="@+id/password_login_txtID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password...."
-        android:paddingBottom="16dp"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorLightgray"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/forget_passwordID"
@@ -71,13 +69,13 @@
     <Button
         android:id="@+id/login_account_btnID"
         android:layout_width="200dp"
-        android:layout_height="60dp"
+        android:layout_height="55dp"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:background="@color/colorPrimary"
         android:text="@string/login_txt"
         android:textColor="@color/colorWhite"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -92,10 +90,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:text="@string/create_account_txt"
         android:textColor="@color/colorPrimary"
-        android:textSize="18sp" />
+        android:textSize="14sp" />
 
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.vibolroeun.android_project.Activities.Activities;
+package com.vibolroeun.android_project;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

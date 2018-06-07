@@ -1,5 +1,6 @@
-package com.vibolroeun.android_project.Activities.Activities;
+package com.vibolroeun.android_project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
@@ -10,7 +11,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.vibolroeun.android_project.R;
+import com.vibolroeun.android_project.Adapter.Slider_Adapter;
 
 public class Introduction_Screen extends AppCompatActivity implements View.OnClickListener{
 
@@ -19,7 +20,9 @@ public class Introduction_Screen extends AppCompatActivity implements View.OnCli
     private Slider_Adapter slider_adapter;
     private Button nextButton;
     private Button preButton;
+    private Button startButton;
     private int mCurrentPage;
+    private Intent intent;
 
     private TextView[] mDots;
 
@@ -32,8 +35,11 @@ public class Introduction_Screen extends AppCompatActivity implements View.OnCli
         mDotLayout = findViewById(R.id.linearLayoutID);
         nextButton = findViewById(R.id.next_btnID);
         preButton = findViewById(R.id.previous_btnID);
+        startButton = findViewById(R.id.get_start_btnID);
+
         nextButton.setOnClickListener(this);
         preButton.setOnClickListener(this);
+        startButton.setOnClickListener(this);
 
         slider_adapter = new Slider_Adapter(this);
         slideViewPager.setAdapter(slider_adapter);
@@ -100,7 +106,6 @@ public class Introduction_Screen extends AppCompatActivity implements View.OnCli
 
             }
 
-
         }
 
         @Override
@@ -116,6 +121,10 @@ public class Introduction_Screen extends AppCompatActivity implements View.OnCli
         switch (v.getId()){
             case R.id.next_btnID: slideViewPager.setCurrentItem(mCurrentPage + 1); break;
             case R.id.previous_btnID: slideViewPager.setCurrentItem(mCurrentPage - 1); break;
+            case R.id.get_start_btnID:
+
+                intent = new Intent(Introduction_Screen.this, MainActivity.class);
+                startActivity(intent); break;
         }
 
     }

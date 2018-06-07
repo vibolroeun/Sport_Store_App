@@ -24,29 +24,28 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:padding="16dp"
-        android:textSize="28sp"
-        android:layout_marginTop="40dp"
+        android:textSize="26sp"
+        android:layout_marginTop="30dp"
         android:textColor="@color/colorSecond"/>
 
     <ImageView
         android:id="@+id/logo_introID"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_below="@+id/title_introID"
         android:src="@drawable/icon"
-        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
-    
+
     <TextView
         android:id="@+id/descript_introID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="19sp"
-        android:textAlignment="center"
-        android:padding="24dp"
+        android:layout_below="@id/logo_introID"
+        android:layout_marginTop="40dp"
+        android:padding="16dp"
         android:text="vibol"
-        android:layout_marginTop="70dp"
+        android:textAlignment="center"
         android:textColor="@color/colorWhite"
-        android:layout_below="@id/logo_introID"/>
+        android:textSize="18sp" />
 
 </RelativeLayout>
